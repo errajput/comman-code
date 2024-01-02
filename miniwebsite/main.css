@@ -34,7 +34,7 @@ nav img {
 .nav-links ul li a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 13px;
 }
 .nav-links ul li::after {
   content: "";
@@ -58,7 +58,7 @@ nav img {
   text-align: center;
 }
 .text-box h1 {
-  font-size: 100%;
+  font-size: 62px;
 }
 .text-box p {
   margin: 10px 0 40px;
@@ -82,7 +82,7 @@ nav img {
   transition: 1s;
 }
 
-/* img.fa {
+.fa {
   display: none;
 }
 
@@ -99,11 +99,13 @@ nav img {
     height: 100vh;
     width: 200px;
     top: 0;
-    right: -200;
+    right: -300px;
     text-align: left;
     z-index: 2;
+    transition: 1s;
   }
-  .nav-img .fa {
+
+  img.fa {
     display: block;
     color: #0f0b0b;
     margin: 10px;
@@ -113,4 +115,4 @@ nav img {
   .nav-links {
     padding: 30px;
   }
-} */
+}
